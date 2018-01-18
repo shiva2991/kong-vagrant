@@ -29,13 +29,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   if ENV['KONG_VB_MEM']
     memory = ENV["KONG_VB_MEM"]
   else
-    memory = 2048
+    memory = 1428
   end
 
   if ENV["KONG_NGINX_WORKER_PROCESSES"]
     cpus = ENV["KONG_NGINX_WORKER_PROCESSES"]
   else
-    cpus = 2
+    cpus = 1
   end
 
   if ENV["KONG_VERSION"]
