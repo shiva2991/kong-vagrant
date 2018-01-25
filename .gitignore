@@ -4,4 +4,7 @@
 # source code locations
 kong/
 kong-plugin/
+kong-plugins/
 
+# Readme exported
+README_exported_2017-12-19-220303.html
